@@ -1,10 +1,8 @@
 #include <stdio.h>
-/*
-*
+/**
 * main-displays lowercase alphabet then uppercase alphabet
-* 
-* Return: Always 0 (Success)
 *
+* Return: Always 0 (Success)
 */
 int main(void)
 {
