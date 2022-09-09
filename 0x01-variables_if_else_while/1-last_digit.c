@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
-* main -determines either greater than 5, less than 6 or 0
+/**
+*
+* main -determines either a number n is greater than 5,less
+* than 6 or 0
 *
 * Return:Always 0 (Success)
 *
