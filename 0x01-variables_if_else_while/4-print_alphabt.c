@@ -1,17 +1,21 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 /**
-* main-displays lowercase alphabets except q and e
+*main - print lowercase alpha a-z but remove 'q' and 'e'
 *
-* Return : Always 0 (Success)
+*Return: Always 0 (Success)
 */
 int main(void)
 {
-	char alp[24] = "abcdfghijklmnoprstuvwxyz";
 	int i;
 
-	for (i = 0 ; i < 24 ; i++)
+	for (i = 97; i < 123; i++)
 	{
-		putchar(alp[i]);
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
 	}
 	putchar('\n');
 	return (0);
