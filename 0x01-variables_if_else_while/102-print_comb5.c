@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-* main -print a number pair from 00-99 but no repeats 00 01*, 00 02, 00 03,...)  
+* main -print a number pair from 00-99 but no repeats 00 0
+* , 00 02, 00 03,...)  
 * Return: Always 0 (Success)
 *
 */
