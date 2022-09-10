@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-*
 * main - print all combinations of three different digits
+*
 * Return: Always 0 (Success) 
 *
 */
@@ -12,9 +12,9 @@ int main(void)
 
 	for (hundreds = '0'; hundreds <= '9'; hundreds++)
 	{
-		for (tens = (hundreds + 1); tens <= '8'; tens++)
+		for (tens = (hundreds + 1); tens <= '9'; tens++)
 		{
-			for (ones = (tens + 1); ones <= '7'; ones++)
+			for (ones = (tens + 1); ones <= '9'; ones++)
 			{
 				putchar(hundreds);
 				putchar(tens);
