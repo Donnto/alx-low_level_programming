@@ -1,42 +1,35 @@
-#include <stdio.h>
-/**
-* main -print a number pair from 00-99 but no repeats
-*   
-* Return: Always 0 (Success)
-*
-*/
-
-int main(void)
-{
-	int tens, ones, t, o;
-
-	for (tens = '0'; tens <= '9'; tens++)
-	{
-
-		for (ones = '0'; ones <= '9'; ones++)
-		{
-			for (t = tens; t <= '9'; t++)
-			{
-				for (o = ones + 1; o <= '9'; o++)
-				{
-					putchar(tens);
-					putchar(ones);
-					putchar(' ');
-					putchar(t);
-					putchar(o);
-
-					if (!((tens == '9' && ones == '8') && (t == '9' && o == '9')))
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-				o = '0';
-			}
-		}
-	}
-	putchar('\n');
-
-	return (0);
-}
+#include <stdio.h> 
+  
+/** 
+* main - Prints all possible combinations of two two-digit * numbers, 
+* ranging from 0-99, separated by a comma followed by a spa* ce. 
+* 
+* Return: Always 0. 
+*/ 
+ int main(void) 
+ { 
+         int num1, num2; 
+  
+         for (num1 = 0; num1 <= 98; num1++) 
+         { 
+                 for (num2 = num1 + 1; num2 <= 99; num2++) 
+                 { 
+                         putchar((num1 / 10) + '0'); 
+                         putchar((num1 % 10) + '0'); 
+                         putchar(' '); 
+                         putchar((num2 / 10) + '0'); 
+                         putchar((num2 % 10) + '0'); 
+  
+                         if (num1 == 98 && num2 == 99) 
+                                 continue; 
+  
+                         putchar(','); 
+                         putchar(' '); 
+                 } 
+         } 
+  
+         putchar('\n'); 
+  
+         return (0); 
+ }
 
