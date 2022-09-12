@@ -1,12 +1,10 @@
 #include <stdio.h>
 /**
- *
  * main -Prints all possible combination of two two-digit
  * numbers, ranging from 0 - 99 separated by a comma
  * followed by a space.
  *
  * Return: Always 0 (Success)
- *
  */
 int main(void)
 {
