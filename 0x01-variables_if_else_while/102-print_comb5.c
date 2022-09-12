@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  *
  * main -Prints all possible combination of two two-digit
