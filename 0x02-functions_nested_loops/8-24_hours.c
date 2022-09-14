@@ -6,18 +6,26 @@
  */
 void jack_baure(void)
 {
-	int min, hr;
+	int hour = 0;
+	int minute = 0;
+	int hours_remainder;
+	int minutes_remainder;
 
-	for (hr = 0; hr <= 23; ++hr)
+	while (hours <= 23)
 	{
-		for (min = 0; min <= 59; ++min)
-		{
-			_putchar((hr / 10) + 48);
-			_putchar((hr % 10) + 48);
-			_putchar(':');
-			_putchar((min / 10) + 48);
-			_putchar((min % 10) + 48);
-			_putchar('\n');
-		}
+	while (minute <= 59)
+	{
+
+	hours_remainder = hours % 10;
+	_putchar(hours /10 + '0');
+	_putchar(hours_remainder + '0');
+	_putchar(':');
+	_putchar(minute / 10 + '0');
+	_putchar(min_remainder + '0');
+	minute++;
+	_putchar('\n');
 	}
+	hours++;
+	minute = 0;
+}
 }
