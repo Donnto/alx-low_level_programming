@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10.c - prints lower case alphabet ten
+ * print_alphabet_x10 - prints lower case alphabet ten
  * times followed by a newline
  *
  * Return:Always 0 (Success)
@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 {
 	char c, i;
 
-	for (i = 0; i <=9; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
