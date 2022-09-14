@@ -8,13 +8,13 @@ void times_table(void)
 
 	for (num = 0; num <=9; num++)
 	{
-		_putchar(48);
+		_putchar('0');
 		for (mult = 1; mult <= 9; mult++)
 		{
 			_putchar(',');
 			_putchar(' ');
 
-			pro = num * mult;
+			prod = num * mult;
 			if (num <= 9)
 				_putchar(' ');
 			else
