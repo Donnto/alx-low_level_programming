@@ -8,24 +8,24 @@ void jack_baure(void)
 {
 	int hour = 0;
 	int minute = 0;
-	int hours_remainder;
+	int hour_remainder;
 	int minutes_remainder;
 
-	while (hours <= 23)
+	while (hour <= 23)
 	{
 	while (minute <= 59)
 	{
 
-	hours_remainder = hours % 10;
-	_putchar(hours /10 + '0');
-	_putchar(hours_remainder + '0');
+	hours_remainder = hour % 10;
+	_putchar(hour /10 + '0');
+	_putchar(hour_remainder + '0');
 	_putchar(':');
 	_putchar(minute / 10 + '0');
 	_putchar(min_remainder + '0');
 	minute++;
 	_putchar('\n');
 	}
-	hours++;
+	hour++;
 	minute = 0;
 }
 }
