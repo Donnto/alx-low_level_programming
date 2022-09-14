@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * print_to_98 - prints all natural numbers from n to 98
- * 
+ *  
  * @n: input number to begin count at.
- * Return : 0 
+ * Return : 0
  */
 void print_to_98(int n)
 {
@@ -12,14 +12,14 @@ void print_to_98(int n)
 	{
 
 		while (n > 98)
-			printf("%d", n--);
+			printf("%d, ", n--);
 		printf("%d\n", n);
 	}
 
 	else
 	{
 		while (n < 98)
-			printf("%d", n++);
+			printf("%d, ", n++);
 		printf("%d\n", n);
 	}
 }
