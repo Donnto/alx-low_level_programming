@@ -2,30 +2,30 @@
 /**
  * jack_baure - prints minutes of the day
  * 
- * Return : no return value
+ * Return : 0
  */
 void jack_baure(void)
 {
 	int hour = 0;
-	int minute = 0;
+	int minutes = 0;
 	int hour_remainder;
 	int mins_remainder;
 
 	while (hour <= 23)
 	{
-	while (minute <= 59)
+	while (minutes <= 59)
 	{
-	mins_remainder = minute % 10;
+	mins_remainder = minutes % 10;
 	hour_remainder = hour % 10;
 	_putchar(hour /10 + '0');
 	_putchar(hour_remainder + '0');
 	_putchar(':');
-	_putchar(minute / 10 + '0');
+	_putchar(minutes / 10 + '0');
 	_putchar(mins_remainder + '0');
-	minute++;
+	minutes++;
 	_putchar('\n');
 	}
 	hour++;
-	minute = 0;
+	minutes = 0;
 }
 }
