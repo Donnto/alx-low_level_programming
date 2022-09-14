@@ -2,7 +2,7 @@
 /**
  * jack_baure - prints minutes of the day
  * 
- * Return : Return 0
+ * Return : no return value
  */
 void jack_baure(void)
 {
