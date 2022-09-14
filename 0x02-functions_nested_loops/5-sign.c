@@ -1,9 +1,11 @@
 #include "main.h"
-/** print_sign - Determines if the input number is greater
- * or equal or less than 0
+/**
+ * print_sign - Determine if the input number is greater
+ * than, equal to or less than 0.
  *
- * @n : the input number is an interger
- * Return: 1 is greater than zero. 0 is zero. -1 if is less
+ * @n: The input number is an interger
+ *
+ * Return: 1 is greater than zero. 0 is zero. -1 is less
  * than zero
  */
 int print_sign(int n)
