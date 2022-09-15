@@ -11,9 +11,9 @@ int main(void)
 
 	for (a = 1; a < 1024; a++)
 	{
-		if ((a % 3) == 0 && (a % 5) == 0)
+		if ((a % 3) == 0 || (a % 5) == 0)
 			b += a;
 	}
-	printf("%d", b);
+	printf("%d\n", b);
 	return (0);
 }
