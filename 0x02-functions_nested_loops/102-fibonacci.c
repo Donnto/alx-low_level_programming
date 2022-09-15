@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -prints the add of fibbonanci numbers
+ * main - Prints the add of the Fibonacci numbers
  *
- * Return: Always 0
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 	printf("%ld, %ld", n1, n2);
-	for (c = 0 ; c < 48; c++)
+	for (c = 0; c < 48; c++)
 	{
 		fn = n1 + n2;
 		printf(", %ld", fn);
