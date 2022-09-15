@@ -17,8 +17,8 @@ int main(void)
 		fn = n1 + n2;
 		printf(", %ld", fn);
 		n1 = n2;
-		n2 = f2;
+		n2 = fn;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
