@@ -7,7 +7,7 @@
  *
  * Desription: prints a string.
  *
- * Return: No return value.
+ * Return: Return Nothing.
  */
 
 void _puts(char *str)
