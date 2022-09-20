@@ -3,8 +3,9 @@
 /**
  * _puts - prints a string followed by a newline.
  * @s: input string
- * Return: no return value.
+ * Return: return nothing.
  */
+
 void _puts(char *str)
 {
 	int count = 0;
@@ -12,7 +13,7 @@ void _puts(char *str)
 	while (*(str + count))
 	{
 		_putchar(*(str + count));
-			count++;
+		count++;
 	}
 	_putchar('\n');
 }
