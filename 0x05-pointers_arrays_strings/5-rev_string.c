@@ -6,8 +6,6 @@
  *
  * @s : input string
  *
- * @str: a string
- *
  * Return:Return nothing.
  */
 
