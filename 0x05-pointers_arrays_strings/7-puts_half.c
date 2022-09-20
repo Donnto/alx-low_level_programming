@@ -7,7 +7,7 @@
  *
  * @str: a string
  *
- * Return: no return value
+ * Return: Returns nothing.
  */
 
 void puts_half(char *str)
