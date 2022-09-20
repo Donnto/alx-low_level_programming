@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _puts - starting point of the function.
+ * _puts - starting point of a function.
  *
- * @str: a string.
+ * @s: a string
  *
- * Description: prints a string.
+ * Desription: prints a string.
  *
  * Return: No return value.
  */
@@ -19,4 +19,5 @@ void _puts(char *str)
 		_putchar(*(str + count));
 			count++;
 	}
+	_putchar('\n');
 }
