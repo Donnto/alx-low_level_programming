@@ -3,7 +3,7 @@
 
 /**
  * Desrcription : headerfile containing prototypes of all
- * function used in used in the 0x04-pointers_arrays_string
+ * function used in the 0x04-pointers_arrays_string
  * directory.
  */
 
