@@ -2,10 +2,9 @@
 
 /**
  * _puts - prints a string followed by a newline.
- * @s: a string.
- * Return:Return nothing.
+ * @s: input string
+ * Return: no return value.
  */
-
 void _puts(char *str)
 {
 	int count = 0;
