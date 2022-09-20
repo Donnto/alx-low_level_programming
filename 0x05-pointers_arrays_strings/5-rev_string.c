@@ -3,7 +3,9 @@
 /**
  * rev_string - function that reverses string.
  * @s: input string.
+ * Return: return no return value
  */
+
 void rev_string(char *s)
 {
 	 int i = 0, j = 0;
@@ -15,9 +17,9 @@ void rev_string(char *s)
 		 i++;
 	 }
 	 i = i - 1;
-	 while (i > 0)
+	 while (i >= 0)
 	 {
-		 *(str + i) = *(s + j);
+		 *(s + i) = *(str + j);
 		 j++;
 		 i++;
 	 }
