@@ -3,7 +3,7 @@
 /**
  * _strlen - starting point of a function.
  *
- * @s: a string 
+ * @s: a string
  *
  * Return: length of string as interger.
  */
