@@ -1,5 +1,13 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+ * Desrcription : headerfile containing prototypes of all
+ * function used in used in the 0x04-pointers_arrays_string
+ * directory.
+ */
+
+#include <stdlib.h>
 
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
