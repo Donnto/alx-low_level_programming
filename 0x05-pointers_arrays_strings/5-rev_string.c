@@ -3,8 +3,12 @@
 
 /**
  * rev_string - function that reverses a string
+ *
  * @s : input string
- * Return: No return value.
+ *
+ * @str: a string
+ *
+ * Return:Return nothing.
  */
 
 void rev_string(char *s)
