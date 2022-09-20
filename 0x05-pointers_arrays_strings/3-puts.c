@@ -1,13 +1,9 @@
 #include "main.h"
 
 /**
- * _puts - starting point of a function.
- *
- * @s: a string
- *
- * Desription: prints a string.
- *
- * Return: Return Nothing.
+ * _puts - prints a string followed by a newline.
+ * @s: a string.
+ * Return:Return nothing.
  */
 
 void _puts(char *str)
