@@ -10,16 +10,16 @@
 
 char *_strcat(char *dest, char *scr)
 {
-	int len = 0, i;
+	int dest_len = 0, i;
 
-	while (dest[len])
-		len++;
+	while (dest[dest_len])
+		dest_len++;
 
 	for (i = 0; scr[i] != 0; i++)
 	{
-		dest[len] = scr[i];
-		len += 1;
+		dest[dest_len] = scr[i];
+		dest_len += 1;
 	}
-	dest[len] = '\0';
+	dest[dest_len] = '\0';
 	return (dest);
 }
