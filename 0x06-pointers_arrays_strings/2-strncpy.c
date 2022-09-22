@@ -2,12 +2,11 @@
 #include <string.h>
 
 /**
- * _strncat - Concatenates two strings using at most
- * of bytes from string src into dest.
+ * _strncpy - Copies at most an inputted number of byte
+ * from string source into dest.
  * @dest: The buffer storing the string copy.
  * @src: The source string.
  * @n: The maximum number of bytes to copied from src.
- * @i: index
  *
  * Return: A pointer to the resulting string dest.
  */
