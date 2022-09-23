@@ -2,8 +2,8 @@
 
 /**
  * rot13 - encodes a string into rot13.
- * @s: the string to encode.
- * 
+ * @s: string to encode.
+ *
  * Return: address of s.
  */
 char *rot13(char *s)
