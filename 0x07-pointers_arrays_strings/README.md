@@ -5,6 +5,8 @@ This project aims to learn about pointers and arrays in C language.
 ## Technologies
 
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+
+
 C files are written according to the C90 standard
 Tested on Ubuntu 20.04 LTS
 
@@ -18,38 +20,20 @@ Filename	Description
 
 Fills memory with a constant byte
 
-1-memcpy.c
+1-memcpy.c		Copies memory area
 
-Copies memory area
+2-strchr.c		Locates a character in a string
 
-2-strchr.c
+3-strspn.c		Gets the length of a prefix substring
 
-Locates a character in a string
+4-strpbrk.c		Searches a string for any of a set of bytes
 
-3-strspn.c
+5-strstr.c		Locates a substring
 
-Gets the length of a prefix substring
+7-print_chessboard.c		Prints the chessboard
 
-4-strpbrk.c	
+8-print_diagsums.c  	Prints the sum of the two diagonals 				of a square matrix of integers
 
-Searches a string for any of a set of bytes
-
-5-strstr.c	
-
-Locates a substring
-
-7-print_chessboard.c	
-
-Prints the chessboard
-
-8-print_diagsums.c  
-
-Prints the sum of the two diagonals of a square matrix of integers
-
-9-set_string.c	
-
-Sets the value of a pointer to a char
-
-101-crackme_password.c	
-
-Contains the password for the crackme2 executable
+9-set_string.c		Sets the value of a pointer to a char
+7
+101-crackme_password.c		Contains the password for				 the crackme2 executable
