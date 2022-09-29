@@ -5,8 +5,9 @@
  * raised to the power of y.
  * @x: base.
  * @y: exponent.
- * Return: value of exponentiation.
+ * Return: value of the exponentiation.
  */
+
 int _pow_recursion(int x, int y)
 {
 	if (y < 0)
