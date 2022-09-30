@@ -7,7 +7,7 @@
  * functions used in 0x05-pointers_arrays_strings
  * directory.
  */
-
+void print_string()
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
