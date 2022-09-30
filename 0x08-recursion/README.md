@@ -1,14 +1,14 @@
-##Recursion
+## Recursion
 In this Project,It aims to learn about recursion and how toimplement it in C language.
 
-##Technologies
+## Technologies
 C files are compiled using gcc 4.8.4
 C files are written according to the C90 standard
 Tested on Ubuntu 20.04 LTS
 Files
 All of the following files are programs written in C:
 
-##Filename	Description
+## Filename	Description
 0-puts_recursion.c	Prints a string
 
 1-print_rev_recursion.c	Prints a string in reverse
