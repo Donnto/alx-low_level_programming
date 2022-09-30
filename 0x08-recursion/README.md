@@ -1,5 +1,5 @@
 ## Recursion
-In this Project,It aims to learn about recursion and how toimplement it in C language.
+In this Project,It aims to learn about recursion and how to implement it in C language.
 
 ## Technologies
 All C files are compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89.
