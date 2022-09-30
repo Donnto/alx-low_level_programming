@@ -2,10 +2,12 @@
 In this Project,It aims to learn about recursion and how toimplement it in C language.
 
 ## Technologies
-C files are compiled using gcc 4.8.4
+All C files are compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89.
+
 C files are written according to the C90 standard
 Tested on Ubuntu 20.04 LTS
-Files
+
+## Files
 All of the following files are programs written in C:
 
 ## Filename	Description
