@@ -1,6 +1,6 @@
 ## More pointers, arrays and strings
 
-This Project It aims to learn about pointers and arrays in C language.
+This Project, It aims to learn about pointers and arrays in C language.
 
 ## Technologies
 C files are compiled using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89.
