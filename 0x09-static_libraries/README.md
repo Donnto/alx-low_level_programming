@@ -7,9 +7,10 @@ In this project, I learned what static libraries are and practiced creating and 
 • Technologies
 
 Scripts written in Bash 4.3.11(1)
+
 C files are compiled using gcc -std=gnu89
-C files are written according to the C90 standard
-Tested on Ubuntu 20.04 LTS
+
+C files are written according to the C90 standard.Tested on Ubuntu 20.04 LTS
 
 ## Tasks 📃
 
