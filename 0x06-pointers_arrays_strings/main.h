@@ -4,7 +4,7 @@
 /**
  * File: main.h
  * Description: Header file containing prototype for all
- * functions used in 0x05-pointers_arrays_strings
+ * functions used in 0x06-pointers_arrays_strings
  * directory.
  */
 void print_string()
@@ -20,6 +20,7 @@ char *leet(char *);
 char *rot13(char *);
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
+char *add_string(char *n1, char n2, char *r, int r_index);
 void print_buffer(char *b, int size);
 
 #endif /*MAIN_H*/
