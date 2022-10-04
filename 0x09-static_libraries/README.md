@@ -1,9 +1,7 @@
 ## C - Static libraries
-
 In this project, I learned what static libraries are and practiced creating and using them with ar, ranlib, and nm.
 
 ## Tests ✔️
-
 • Technologies
 
 Scripts written in Bash 4.3.11(1)
@@ -13,9 +11,7 @@ C files are compiled using gcc -std=gnu89
 C files are written according to the C90 standard.Tested on Ubuntu 20.04 LTS
 
 ## Tasks 📃
-
-0. A library is not a luxury but one of the necessities of life
-
+A library is not a luxury but one of the necessities of life
 °libmy.a: C Static library containing all the functions listed below:
 
 •int _putchar(char c);
@@ -60,6 +56,5 @@ C files are written according to the C90 standard.Tested on Ubuntu 20.04 LTS
 
 °main.h: Header file containing the prototypes of all fuctions included in libmy.a.
 
-1. Without libraries what have we? We have no past and no future
-
+Without libraries what have we? We have no past and no future
 °create_static_lib.sh: Bash script that creates a static library called liball.a from all the .c files in the current directory.
