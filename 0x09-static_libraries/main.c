@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  * main - function that puts a string to stdout.
  *
- * Return: no return
+ * Return: no return.
  */
 int main(void)
 {
