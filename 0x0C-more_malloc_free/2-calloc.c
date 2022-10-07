@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 /**
  * _calloc - Allocates memory for an array of a certain
  * number of elements each of an inputted byte size.
@@ -12,7 +12,7 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *p;
-	unsigned int i;
+	unsigned int index;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
@@ -22,8 +22,8 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (p == NULL)
 		return (NULL);
 
-	for (i = 0; i < (nmemb * size); i++)
-		p[i] = 0;
+	for (index = 0; index < (nmemb * size); index++)
+		p[index] = 0;
 
 	return (p);
 }
