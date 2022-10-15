@@ -1,9 +1,9 @@
-C - Variadic functions
+## C - Variadic functions
 In this project, I learned about using variadic functions with the va_start, va_arg, and va_end macros as well as why and how to use the const type qualifier in C.
 
-Test ✔️
-
-Header File 📁
+## Test ✔️
+• Ubuntu 20.04. gcc -std=gnu89
+## Header File 📁
 
 °variadic_functions.h:
 
@@ -21,7 +21,7 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 
 void print_strings(const char *separator, const unsigned int n, ...);
 
-3-print_all.c
+3-print_all.c 
 
 void print_all(const char * const format, ...);
 
@@ -44,9 +44,7 @@ If the parameter n == 0, the function returns 0.
 
 °1. To be is to be the value of a variable
 
-1-print_numbers.c: 
-
-C function that prints numbers, followed by a new line.
+1-print_numbers.c: C function that prints numbers, followed by a new line.
 
 •The paramter separator is the string to be printed between numbers.
 
@@ -56,9 +54,7 @@ C function that prints numbers, followed by a new line.
 
 °2. One woman's constant is another woman's variable
 
-2-print_strings.c:
-
-C function that prints strings, followed by a new line.
+2-print_strings.c:C function that prints strings, followed by a new line.
 
 •The parameter separator is the string to be printed between the strings.
 
@@ -70,9 +66,7 @@ C function that prints strings, followed by a new line.
 
 °3. To be is a to be the value of a variable
 
-3-print_all.c:
-
-C function that prints anything.
+3-print_all.c:C function that prints anything.
 
 •Usage: print_all("ceis", 'B', 3, "stSchool");
 
