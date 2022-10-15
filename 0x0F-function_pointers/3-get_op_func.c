@@ -2,10 +2,10 @@
 /**
  * get_op_func - selects the correct function
  * the operation asked by the user.
- * @s: char operator.
+ * @s: the operator passed as argument..
  *
  * Return: pointer to the function that corresponds to
- * the operator.
+ * the operator given as a parameter.
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -19,12 +19,8 @@ int (*get_op_func(char *s))(int, int)
 	}
 	int i = 0;
 
-	while (i < 10)
-	{
-		if (s[0] == ops->op[i])
-			break;
+	while (ops[i].op != NULL && *(ops[i].op) != *s)
 		i++;
-	}
 
-	return (ops[i / 2].f);
+	return (ops[i].f);
 }
