@@ -1,14 +1,14 @@
-##C - Bit manipulation
+## C - Bit manipulation
 In this project, I learned how to manipulate bits and use the bitwise operators >>, <<, &, |, and ^ in C.
 
-##Helper File 🙌
+## Helper File 🙌
 _putchar.c: C function that writes a character to stdout.
 
-Header File 📁
+## Header File 📁
 
 holberton.h: Header file containing prototypes for all functions written in the project.
 
-##File	Prototype
+## File	Prototype
 0-binary_to_uint.c	unsigned int binary_to_uint(const char *b);
 
 1-print_binary.c	void print_binary(unsigned long int n);
