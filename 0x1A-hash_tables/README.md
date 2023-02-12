@@ -20,10 +20,12 @@ typedef struct hash_node_s
 
 } hash_node_t;
 
+
 typedef struct hash_table_s
 
 {
-	unsigned long int size;
+
+    unsigned long int size;
 
 	hash_node_t **array;
 
@@ -33,7 +35,8 @@ typedef struct hash_table_s
 typedef struct shash_node_s
 
 {
-	char *key;
+
+    char *key;
 
 	char *value;
 
@@ -49,7 +52,8 @@ typedef struct shash_node_s
 typedef struct shash_table_s
 
 {
-	unsigned long int size;
+	
+    unsigned long int size;
 
 	shash_node_t **array;
 
