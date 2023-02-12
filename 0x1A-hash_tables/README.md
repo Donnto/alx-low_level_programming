@@ -21,6 +21,8 @@ typedef struct hash_node_s
 } hash_node_t;
 
 
+
+
 typedef struct hash_table_s
 
 {
@@ -30,6 +32,8 @@ typedef struct hash_table_s
 	hash_node_t **array;
 
 } hash_table_t;
+
+
 
 
 typedef struct shash_node_s
@@ -47,6 +51,8 @@ typedef struct shash_node_s
 	struct shash_node_s *snext;
 
 } shash_node_t;
+
+
 
 
 typedef struct shash_table_s
